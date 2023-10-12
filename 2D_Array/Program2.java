@@ -1,3 +1,6 @@
+// Write a function which accepts a 2D array of integers and its size as arguments and displays the elements of middle row and the elements of middle column and their sum
+
+
 public class Program2 {
     public static void main(String[] args) {
         int[][] matrix = {
