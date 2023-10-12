@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class program1 {
+public class program_1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter size of an array: ");
@@ -18,6 +18,7 @@ public class program1 {
         scanner.close();
 
         // To Print elements
+        System.out.print("Stored Elements in Array: ");
         for (int element : array) {
             System.out.print(element + " ");
         }

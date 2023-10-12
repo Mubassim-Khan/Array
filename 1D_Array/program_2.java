@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class program2 {
+public class program_2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter size of an array: ");
@@ -23,6 +23,7 @@ public class program2 {
             array[size - 1] = temp;
         }
 
+        System.out.print("Reversed Array: ");
         for (int i : array) {
             System.out.print(i + " ");
         }
